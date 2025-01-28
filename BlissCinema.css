@@ -343,7 +343,7 @@ gap: 5px;
         /*  search input  */
 .search-input{
     margin: 0% auto;
-width:115px;
+width:85px;
 height: 60%;
 border-radius: 10px;
 border: 2px solid gold;
@@ -359,18 +359,18 @@ font-size: 18px;
 /*  search submit   */
 .search-submit{
     margin-right: 0px;
-    width: 57px;
+    width: 40px;
     height: 60%;
     color: white;
     border-radius: 10px;
     background: gold;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: bold;
     transition-duration: 1s;
 }
 .search-submit:hover{
     background: white;
-    width: 55px;
+    width: 42px;
     color: gold;
 }
 
@@ -419,7 +419,7 @@ font-size: 18px;
     /*  download button  */
 .download {
     height: 3vh;
-    width: 25%;
+    width: 30%;
 position:absolute;
     right: 5%;
 top:26%;
