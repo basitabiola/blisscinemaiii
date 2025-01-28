@@ -1,0 +1,556 @@
+
+*{
+    font-size: 2.5vh;
+}
+body{
+    background: black;
+    color: white;
+    font-size: 2vh;
+}
+/*  navigation bar  */
+.nav-bar{
+    width: 100%;
+    height: 11vh;
+    backdrop-filter: blur(10px);
+    position: fixed;
+}
+
+/*  nav-bar content  */
+
+.BlissCinema{
+font-size: 9vh;
+font-family:'Franklin Gothic Medium';
+font-weight: bolder;
+animation: me 2s ease-in-out infinite;
+animation-delay: calc(var(--i) * 0.08s);
+}
+
+@keyframes me {
+    from{
+        background: linear-gradient(to left,gold,white,red);
+        color: transparent;
+        background-clip: text;
+        font-size: 9vh;
+    }
+    to{
+        background: linear-gradient(to right,gold,white,red);
+        color: transparent;
+        background-clip: text;
+        font-size: 9vh;
+    }
+}
+
+
+.a{
+    font-size: 3vh;
+padding-left: 1.2%;
+color: gold;
+font-family: verdana;
+font-weight: bolder;
+}
+.a:hover{
+color: white;
+}
+/*  search input  */
+.search-input{
+    margin-left: 5%;
+width: 17%;
+height: 60%;
+border-radius: 15px;
+border: 3px solid gold;
+background: none;
+color: white;
+font-size: 4vh;
+}
+.search-input::placeholder{
+    color: white;
+font-size: 2.5vh;
+}
+
+/*  search submit   */
+.search-submit{
+    width: 7.5%;
+    height: 60%;
+    color: white;
+    border-radius: 10px;
+    background: gold;
+    font-size: 3vh;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+.search-submit:hover{
+    background: white;
+    width: 8%;
+    color: gold;
+}
+
+/* nav-bar2 */
+.nav-bar2 {
+width: 0.00003%;
+height: 0.00003vh;
+background: rgb(22, 21, 21);
+position: fixed;
+bottom: 1%;
+}
+
+/* nav categories */
+.nav2 {
+text-decoration: none;
+color: white;
+font-size: 2.3vh;
+font-family: helvetica;
+}
+
+/* navbar2 icon's */
+.icon{
+    width: 10%;
+    border-radius: 10px;
+}
+
+/*  banner wraper  */
+
+.banner-wraper{
+width: 100%;
+height: 90vh ;
+background: black;
+display: flex;
+gap: 10px;
+overflow-x: scroll;
+scroll-snap-type: x mandatory;
+scrollbar-width: thin;
+}
+
+/*  banners   */
+
+.banners{
+width: 95%;
+height: 85vh;
+background: black;
+scroll-snap-align: center;
+box-shadow: 0px 95px 90px black inset;
+padding: 5px 3px;
+flex-shrink: 0;
+text-align: center;
+}
+
+/*  banner-img-width  */
+
+.banner-img-width{
+    width: 76%;
+    box-shadow: 0px 15px 70px black ;
+}
+
+/*  download button  */
+.download {
+    height: 7vh;
+    width: 13%;
+    background: linear-gradient(to top,gold,green);
+position:absolute;
+    right: 20%;
+bottom:20%;
+color: white;
+border-radius: 10px;
+font-size: 3vh;
+font-weight: bolder;
+animation: download 1.7s infinite;
+border: none;
+}
+
+@keyframes download{
+    from{
+color: red;
+background: linear-gradient(to top,green,gold);
+    padding-bottom: 32px;
+    position:absolute;
+    right: 20%;
+bottom:25%;
+}
+    to{
+color: white;
+    }
+}
+.download:hover{
+    background: gold;
+    color: white;
+}
+
+/*  categories  */
+.categories{
+    color: gold;
+    font-size: 6vh;
+    padding-left: 3%;
+    padding-top: 25%;
+    font-family: Arial;
+font-weight: bolder;
+}
+/*  categories div  */
+.categories0{
+    width: 100%;
+    height: 12vh;
+    background: black;
+    margin-top: 6%;
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto ;
+}
+/*  categories  div2 */
+.categories1{
+    width: 90%;
+    height: 8vh;
+    background: linear-gradient( 290deg,black,gold,black);
+border-radius: 5px;
+margin: 0% auto;
+font-size: 5vh;
+padding-top: 20px;
+text-align: center;
+font-family: 'Franklin Gothic Medium';
+transition-duration: 1s;
+color: white;
+}
+.categories1:hover{
+    height: 9vh;
+    color: white;
+    font-size: 5.5vh;
+    background: linear-gradient( 190deg,black,gold,black);
+border: 3px solid gold;
+}
+
+/*   weekly top 20    */
+
+/* movie names */
+.movie-names{
+    color: gold;
+    font-size: 3.5vh;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium';
+}
+
+.top-20{
+    color: gold;
+    font-size: 6vh;
+    padding-left: 3%;
+    margin-top: 6vh;
+    font-family: Arial;
+font-weight: bolder;
+}
+.top-parent{
+width: 100%;
+height: 71vh;
+background: black;
+display: flex;
+gap: 10px;
+overflow-x: scroll;
+scroll-snap-type: x mandatory;
+scrollbar-width: none;
+margin-top: 5%;
+}
+.top-child{
+    width: 20%;
+    height: 57vh;
+    background: black;
+    scroll-snap-align: center;
+padding: 5px 3px;
+flex-shrink: 0;
+text-align: center;
+    border-radius: 10px;
+    margin-top: 0.5%;
+    transition-duration: 1s;
+}
+.top-child:hover{
+    width: 21%;
+}
+span{
+    color: gold;
+}
+
+/*         summers       */
+
+.trends-description{
+    color: gold;
+    font-size: 4vh;
+    float: left;
+    font-family: helvetica;
+font-weight: bolder;
+}
+.trends-description1{
+    color: gold;
+    font-size: 4vh;
+    float: left;
+    font-family: helvetica;
+    font-weight: bolder;
+}
+
+/* summer video */
+.summer-video{
+    width: 91% ;
+    border: 3px solid black ;
+    margin-left :4%;
+    border-radius: 10px;
+}
+.summer-video:hover{
+    width: 93% ;
+}
+
+/* summer parent */
+.summer-parent{
+width: 100%;
+height: 52vh;
+background: black;
+display: grid;
+grid-template-columns:auto auto;
+gap: 5px;
+ border-radius: 10px;
+}
+/* summer child */
+.summer-child{
+    width: 100vh;
+    height: 52vh;
+    background: black;
+     border-radius: 10px;
+}
+
+
+/* media query for mobile device */
+
+
+
+@media (max-width:800px){
+    .nav-bar{
+        width: 100%;
+        height: 6vh;
+        position: fixed;
+        margin-top: 0%;
+    }
+    .BlissCinema{
+        font-size: 1px;
+        font-family:'Franklin Gothic Medium';
+        font-weight: bold;
+        color: green;
+        }
+        @keyframes me {
+            from{
+                background: linear-gradient(to left,white,gold,white,red);
+                color: transparent;
+                background-clip: text;
+                font-size: 29px;
+            }
+            to{
+                background: linear-gradient(to right,white,gold,white,maroon);
+                color: transparent;
+                background-clip: text;
+                font-size:29px;
+            }
+        }
+        /*  search input  */
+.search-input{
+    margin: 0% auto;
+width:115px;
+height: 60%;
+border-radius: 10px;
+border: 2px solid gold;
+background: none;
+color: white;
+font-size: 18px;
+}
+.search-input::placeholder{
+    color: white;
+    border: 2px solid gold;
+}
+
+/*  search submit   */
+.search-submit{
+    margin-right: 0px;
+    width: 57px;
+    height: 60%;
+    color: white;
+    border-radius: 10px;
+    background: gold;
+    font-size: 13px;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+.search-submit:hover{
+    background: white;
+    width: 55px;
+    color: gold;
+}
+
+.span{
+    position: absolute;
+    bottom: 0px;
+}
+
+        .a{
+            font-size: 0.000000002px;
+            width: 0.00001%;
+        }
+
+        /*  banner wraper  */
+
+.banner-wraper{
+    margin-top: 5%;
+    width: 100%;
+    height: 31vh ;
+    background-color: black;
+    scrollbar-width:thin;
+
+
+    }
+    ::-webkit-scrollbar{
+    background: red;
+    width: 2px;
+    }
+    
+    /*  banners   */
+    
+    .banners{
+        margin-top: 7%;
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+
+    }
+    
+    /*  banner-img-width  */
+    
+    .banner-img-width{
+        width: 100%;
+        box-shadow: 0px 15px 70px black ;
+    }
+    /*  download button  */
+.download {
+    height: 3vh;
+    width: 25%;
+position:absolute;
+    right: 5%;
+top:26%;
+font-size: 12px;
+font-weight: bolder;
+animation: download 1.7s infinite;
+border: none;
+}
+
+@keyframes download{
+    from{
+color: red;
+background: linear-gradient(to top,green,gold);
+
+}
+    to{
+color: white;
+    }
+}
+
+/*  categories div  */
+.categories0{
+    width: 100%;
+    height: 3vh;
+}
+/*  categories  div2 */
+.categories1{
+    width: 90%;
+    height: 3vh;
+margin: 0% auto;
+font-size: 15px;
+padding-top: 3px;
+text-align: center;
+background: linear-gradient( to left,black,gold,black);
+border: 1px solid gold;
+}
+.categories1:hover{
+    height: 3.5vh;
+    font-size: 16px;
+    background: linear-gradient( to left,black,gold,black);
+border: 3px solid gold;
+}
+
+/*   wekly top 20    */
+
+.top-20,.categories{
+    font-size: 25px;
+}
+.top-parent{
+width: 100%;
+height: 27vh;
+background: black;
+display: flex;
+gap: 10px;
+overflow-x: scroll;
+scroll-snap-type: x mandatory;
+scrollbar-width: none;
+}
+.top-child{
+    width: 27%;
+    height: 19vh;
+padding: 1px 1px;
+}
+.top-child:hover{
+    width: 28.5%;
+}
+span{
+    color: gold;
+    font-size: 5px;
+}
+.movie-names{
+    color: gold;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium';
+}
+.nav-bar2 {
+    width: 100%;
+    height: 7.3vh;
+    background: rgb(22, 21, 21);
+    position: fixed;
+    bottom: 0%;
+    padding-top: 0%;
+    font-size: 15px;
+    }
+
+    /*         summers       */
+
+.trends-description{
+    color: white;
+ font-size: 1.8vh;
+    float: left;
+    font-family: sans-serif;
+font-weight: none;
+}
+.trends-description1{
+    color: white;
+    font-size: 1.8vh;
+    float: left;
+    font-family: helvetica;
+}
+
+/* summer video */
+.summer-video{
+    width:98% ;
+    border: 2px solid grey ;
+    margin-left :0%;
+}
+.summer-video:hover{
+    width:98% ;
+}
+
+/* summer parent */
+.summer-parent{
+width: 100%;
+height: 50vh;
+background: black;
+display: grid;
+grid-template-columns:auto;
+scrollbar-width: thin;
+}
+/* summer child */
+.summer-child{
+    margin-top: 1%;
+    width: 98%;
+    margin-left: 1%;
+    height: 25vh;
+    background: rgb(31, 29, 29);
+}
+
+
+
+
+}
