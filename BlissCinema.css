@@ -321,7 +321,7 @@ gap: 5px;
         margin-top: 0%;
     }
     .BlissCinema{
-        font-size: 1px;
+        font-size: 20px;
         font-family:'Franklin Gothic Medium';
         font-weight: bold;
         color: green;
@@ -331,18 +331,18 @@ gap: 5px;
                 background: linear-gradient(to left,white,gold,white,red);
                 color: transparent;
                 background-clip: text;
-                font-size: 29px;
+                font-size: 23px;
             }
             to{
                 background: linear-gradient(to right,white,gold,white,maroon);
                 color: transparent;
                 background-clip: text;
-                font-size:29px;
+                font-size:23px;
             }
         }
         /*  search input  */
 .search-input{
-    margin: 0% auto;
+    margin-left:10%;
 width:85px;
 height: 60%;
 border-radius: 10px;
@@ -450,7 +450,8 @@ color: white;
     width: 90%;
     height: 3vh;
 margin: 0% auto;
-font-size: 15px;
+font-size: 11px;
+    font-weight:bolder;
 padding-top: 3px;
 text-align: center;
 background: linear-gradient( to left,black,gold,black);
@@ -498,7 +499,7 @@ span{
 }
 .nav-bar2 {
     width: 100%;
-    height: 7.3vh;
+    height: 7.5vh;
     background: rgb(22, 21, 21);
     position: fixed;
     bottom: 0%;
