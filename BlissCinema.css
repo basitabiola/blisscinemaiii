@@ -103,7 +103,7 @@ font-family: helvetica;
 
 /* navbar2 icon's */
 .icon{
-    width: 10%;
+    width: 8%;
     border-radius: 10px;
 }
 
@@ -342,14 +342,14 @@ gap: 5px;
         }
         /*  search input  */
 .search-input{
-    margin-left:10%;
+    margin-right:25%;
 width:85px;
 height: 60%;
 border-radius: 10px;
 border: 2px solid gold;
 background: none;
 color: white;
-font-size: 18px;
+font-size: 13px;
 }
 .search-input::placeholder{
     color: white;
@@ -358,13 +358,13 @@ font-size: 18px;
 
 /*  search submit   */
 .search-submit{
-    margin-right: 0px;
+    margin-right: 2%;
     width: 40px;
     height: 60%;
     color: white;
     border-radius: 10px;
     background: gold;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     transition-duration: 1s;
 }
